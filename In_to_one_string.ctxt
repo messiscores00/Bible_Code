@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=In_to_one_string
+comment1.params=s
+comment1.target=In_to_one_string(java.lang.String)
+comment10.params=sheet\ column\ row\ integer
+comment10.target=void\ addNumber(jxl.write.WritableSheet,\ int,\ int,\ java.lang.Integer)
+comment11.params=sheet\ column\ row\ s
+comment11.target=void\ addLabel(jxl.write.WritableSheet,\ int,\ int,\ java.lang.String)
+comment2.params=s
+comment2.target=void\ set_String(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ to_one_string()
+comment4.params=
+comment4.target=void\ setStr2()
+comment5.params=
+comment5.target=void\ copy()
+comment6.params=w
+comment6.target=void\ setWidth(int)
+comment6.text=\n\ \ \ \ public\ void\ setOutputFile(String\ inputFile){\n\ \ \ \ \ \ \ \ this.inputFile\ \=\ inputFile;\n\ \ \ \ }\n
+comment7.params=s
+comment7.target=void\ setStart(int)
+comment8.params=
+comment8.target=void\ writeSheet()
+comment9.params=width\ sheet
+comment9.target=void\ setSheet(int,\ jxl.write.WritableSheet)
+numComments=12
