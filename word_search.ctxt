@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=word_search
-comment1.params=input
-comment1.target=word_search(java.lang.String)
-comment2.params=searchWord\ space
+comment1.params=input\ search
+comment1.target=word_search(java.lang.String,\ java.lang.String)
+comment2.params=searchWord\ a
 comment2.target=int[]\ search_for_word(java.lang.String,\ int)
-numComments=3
+comment3.params=array
+comment3.target=boolean\ equals(int[])
+comment4.params=
+comment4.target=int[]\ getResult()
+numComments=5
