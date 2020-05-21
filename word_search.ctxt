@@ -2,10 +2,11 @@
 comment0.target=word_search
 comment1.params=input\ search
 comment1.target=word_search(java.lang.String,\ java.lang.String)
-comment2.params=searchWord\ a
-comment2.target=int[]\ search_for_word(java.lang.String,\ int)
+comment2.params=a\ i
+comment2.target=int[]\ search_for_word(int,\ int)
 comment3.params=array
 comment3.target=boolean\ equals(int[])
+comment3.text=\n\ \ \ \ private\ int[]\ search_for_word(String\ searchWord,\ int\ a){\n\ \ \ \ \ \ \ \ if(a\=\=0){\n\ \ \ \ \ \ \ \ \ \ \ \ spacing\ \=\ new\ int[searchWord.length()-1];\n\ \ \ \ \ \ \ \ \ \ \ \ while(i<Input.length()){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(Input.charAt(i)\ \=\=\ searchWord.charAt(0)){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ first\ \=\ i;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ i++;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.search_for_word(searchWord,1);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ i++;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ //--------------------------------\n\ \ \ \ \ \ \ \ while(i<Input.length()){\n\ \ \ \ \ \ \ \ \ \ \ \ if(Input.charAt(i)\ \=\=\ searchWord.charAt(a)){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ i++;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(a+1<searchWord.length()){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.search_for_word(searchWord,a+1);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }else{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(this.equals(spacing)){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Return[0]\ \=\ first;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Return[1]\ \=\ spacing[0];\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ Return;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }else{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ i++;\n\ \ \ \ \ \ \ \ \ \ \ \ spacing[a-1]++;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ Return;\n\ \ \ \ }\n
 comment4.params=
 comment4.target=int[]\ getResult()
 numComments=5

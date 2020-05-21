@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=xlsx_file
+comment1.params=w\ s\ sheetString
+comment1.target=xlsx_file(int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ writeSheet()
+comment3.params=width\ sheet
+comment3.target=void\ setSheet(int,\ jxl.write.WritableSheet)
+comment4.params=sheet\ column\ row\ integer
+comment4.target=void\ addNumber(jxl.write.WritableSheet,\ int,\ int,\ java.lang.Integer)
+comment5.params=sheet\ column\ row\ s
+comment5.target=void\ addLabel(jxl.write.WritableSheet,\ int,\ int,\ java.lang.String)
+comment6.params=start\ spacing\ searchWord\ color
+comment6.target=void\ highlight(int,\ int,\ java.lang.String,\ jxl.format.Colour)
+comment7.params=i
+comment7.target=int[]\ find_col_row(int)
+numComments=8
