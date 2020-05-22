@@ -23,17 +23,18 @@ public class xlsx_file{
     int start = 1;
     String oneString= "";
     char[] charList;
-    private String inputFile = "/home/ryan/Documents/Project/Bible Code/Bible_Code.xlsx";
+    String inputFile;
     private WritableCellFormat times;
     File file;
     WorkbookSettings wbSettings;
     WritableWorkbook workbook;
     WritableSheet excelSheet;
-    public xlsx_file(int w, int s, String sheetString){
+    public xlsx_file(int w, int s, String sheetString , String file_location, String file_name){
         this.width = w;
         this.start = s;
         oneString = sheetString;
         charList = oneString.toCharArray();
+        inputFile = file_location.concat(file_name);
     }
     public void writeSheet() throws IOException, WriteException{
         file = new File(inputFile);

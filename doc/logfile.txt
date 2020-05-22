@@ -13,20 +13,20 @@ javadoc
 -source
 11
 -classpath
-/app/bluej/lib/bluejcore.jar:/app/bluej/lib/junit-4.11.jar:/app/bluej/lib/hamcrest-core-1.3.jar:/app/bluej/lib/lang-stride.jar:/app/bluej/lib/javafx/lib/javafx.base.jar:/app/bluej/lib/javafx/lib/javafx.controls.jar:/app/bluej/lib/javafx/lib/javafx.fxml.jar:/app/bluej/lib/javafx/lib/javafx.graphics.jar:/app/bluej/lib/javafx/lib/javafx.media.jar:/app/bluej/lib/javafx/lib/javafx.properties.jar:/app/bluej/lib/javafx/lib/javafx.swing.jar:/app/bluej/lib/javafx/lib/javafx.web.jar:/home/ryan/Documents/Project/Bible Code
+/app/bluej/lib/bluejcore.jar:/app/bluej/lib/junit-4.11.jar:/app/bluej/lib/hamcrest-core-1.3.jar:/app/bluej/lib/lang-stride.jar:/app/bluej/lib/javafx/lib/javafx.base.jar:/app/bluej/lib/javafx/lib/javafx.controls.jar:/app/bluej/lib/javafx/lib/javafx.fxml.jar:/app/bluej/lib/javafx/lib/javafx.graphics.jar:/app/bluej/lib/javafx/lib/javafx.media.jar:/app/bluej/lib/javafx/lib/javafx.properties.jar:/app/bluej/lib/javafx/lib/javafx.swing.jar:/app/bluej/lib/javafx/lib/javafx.web.jar:/home/ryan/Documents/Java Resources/jxl-2.6.jar:/home/ryan/Documents/Java Resources/jxl.jar:/home/ryan/Documents/Java Resources/poi-4.1.2/poi-4.1.2.jar:/home/ryan/Documents/Java Resources/poi-4.1.2/poi.jar:/home/ryan/Documents/Java Resources/poi.jar:/home/ryan/Documents/Project/Bible Code
 -d
 /home/ryan/Documents/Project/Bible Code/doc
 -encoding
 UTF-8
 -charset
 UTF-8
-/home/ryan/Documents/Project/Bible Code/In_to_one_string.java
+/home/ryan/Documents/Project/Bible Code/Text.java
 <---- end of javadoc command ---->
-Loading source file /home/ryan/Documents/Project/Bible Code/In_to_one_string.java...
-/home/ryan/Documents/Project/Bible Code/In_to_one_string.java:10: error: <identifier> expected
-        start.
-              ^
-/home/ryan/Documents/Project/Bible Code/In_to_one_string.java:10: error: not a statement
-        start.
-             ^
+Loading source file /home/ryan/Documents/Project/Bible Code/Text.java...
+/home/ryan/Documents/Project/Bible Code/Text.java:88: error: illegal escape character
+        Return = string.replace( "\d+:\d.","");
+                                   ^
+/home/ryan/Documents/Project/Bible Code/Text.java:88: error: illegal escape character
+        Return = string.replace( "\d+:\d.","");
+                                       ^
 2 errors
